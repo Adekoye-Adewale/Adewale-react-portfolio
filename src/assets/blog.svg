@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="60" height="60" rx="16" fill="black"/>
+<rect x="12" y="12" width="36" height="36" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_24_87" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_24_87" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEHklEQVR4nO2dT2hcRRyAJyZGPFQUidW0F+lFvElShEZoUQ+2l9Je1B6SXCopYrRRKHhpveRi8SJGAi2xvTQXLz1504MQIxI9lB5ySCoGURH/JDFtsN1PhszistmZ/dO3b35v3u+DZdnHvNmZ+TLze7Nv3sQYRVEURVEURVEURckTYBqYzeA1reayEbJKNqyqEBWSHtpDhKFChKFCiiPkS8/VlD2uQT2CkHFP+nEV0kVUSESAQWCoSz3kF+DlnF9DwFOmgBIu1jZ8l4TEZAX4ULwc4B3gn/rSJyikyibwlpEI8CkeEhZS5RMjCeAcAUogxPKekQDwNLBNgJII2QYOmNgAc81KWhIhlsu5NbynsR4E/qQxW8DZ+iuRIs9D2LmCnHJ1a8Qftk3yLldtAQ/i57TnnMIKqQK8Eaj3sIkFcCIwnvYnLKQfuOMp13ETsWBjnkLdCpxTeCEWW0dPucZMLDpprISErLZTj7wKpUJ2o0JioD1kNzpkNfgr0SEr5SEL2A9MAl+4d/tZg3okIT8DlbpjFXe8re/IgzLEkHZRISrkf7SH7EZ7SD06ZJUjhvwLLLn3ENpDuixkCTgDDLh0A+6zPa5CIvSQuTbvSGoPyUjIsuecCjBSl3akwdykyrKJSEpXWRP4+QHoc+n63GcfE7lWNmEhDwDfBBp60qV7O5DmO6A318qmKsSdZ9fI3vWc+zfwXGDxxD3g+fxqWQIh7twZwks0fcwYAaQo5DHgV9rjd+BxI4DkhDQ5H3ELCEoipAf4itb42qY3QkhSiMvjcGCuUctLRhDJCnH5zBPmmhFG6kKeBP7y5LUO7DPCSFqIy+tdT15TRiBlENLX4KeSG1FXk5dZiMvvhZoAb9+PGKGUQogFuOryuGIEUyYhe4EfpT9yXBohFveQ/qzw13qZhPQC31NM0hNiAQ61OIOXRppCLMBnFI+khTwRuFEllXSFWOxeIhSLqEJGPYX6KcPv6C1YgB/Nqu6dNNbRwH3vRzP8npECBfhXsqp3Jw31bKBgH+e9hYcQnsmy3lk+r225Dpxqcbe2wQQC/Ep+Le9vqA/yCobAR8jmfD6tHm6kR4DfuimEnXvv77vYJBW7B+QeIwE35DR7fKAZ4568H7K//CIbW/cXjSSA14HbWQphZzukRWRjt2p61UjEbdf0bRZCgGFgDdks1m+DKw433h+zu6sBN4GNdoUArwU2CYvJhqvTJTcHE7NOrGOabBzQ4zbUbDYJtGt/T8auSxIEhLwJfN7CX+ma+GEiESFbLchYsGu4YtchKe5jJ4d54OHY5U+ODoRUgAtJBNAEhGxq8JYjZE2DtxwhCxq85QiZ1+AtQ0hFg7ccIRq8BQnR4C1IiAZvQUI0eEvA/YcznXlLwT4lFbsMiqIoiqIoiqIoimKk8h9ghfKCFt6XlQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

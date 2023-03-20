@@ -1,6 +1,21 @@
 .main {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 0px;
 }
 
+.contents {
+  width: 70vw;
+  /* background-color: #777777; */
+  padding: 3% 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .main {
+      display: block;
+  }
+
+  .contents {
+    max-width: 100vh;
+    width: auto;
+  }
+}

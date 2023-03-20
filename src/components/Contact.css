@@ -1,0 +1,228 @@
+.contact-wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+.contact-wrapper-line-one, .contact-wrapper-line-three {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.group-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1 0 calc(50% - 10px);
+}
+
+.box {
+    height: auto;
+    flex: 1 0 160px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.box:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.box:hover img {
+    transform: scale(1.1);
+}
+
+.box img {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box p, .box h4 {
+    margin-block: 6px;
+    cursor: pointer;
+}
+
+.box h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.box a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* border: solid 1px #000000; */
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 2px 15px;
+}
+
+.contact-wrapper-line-two {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.showcase {
+    width: calc(49% - 10px);
+    height: auto;
+    /* overflow-x: scroll; */
+    background: #cacaca;
+    mix-blend-mode: normal;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.showcase, .contact-showcase-right {
+    flex: 1 0 377px;
+}
+
+.contact-showcase-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-showcase-line {
+    flex: 1 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .group-box {
+        flex: none;
+    }
+
+    .contact-wrapper-line-two {
+        display: block !important;
+    }
+
+    .contact-showcase-line {
+        flex-wrap: wrap;
+    }
+
+    .contact-showcase-right {
+        max-height: 900px;
+    }
+
+    .showcase {
+        width: 100%;
+        height: 412px;
+        margin-bottom: 20px;
+    }
+
+    .contact-wrapper-line-one, .contact-wrapper-line-three {
+        display: block;
+    }
+
+    .group-box {
+        margin-block: 20px;
+    }
+
+}
+
+/* specify the box colors */
+
+.twitter {
+    background: rgba(86, 134, 225, 0.2);
+}
+
+.twitter:hover {
+    background: rgba(86, 134, 225, 0.1);
+}
+
+.twitter a {
+    background: #5686E1;
+}
+
+.linkedin {
+    background: rgba(10, 102, 194, 0.2);
+}
+
+.linkedin:hover {
+    background: rgba(10, 102, 194, 0.1);
+}
+
+.linkedin a {
+    background: #0A66C2;
+}
+
+.insta {
+    background: rgba(252, 175, 69, 0.2);
+}
+
+.insta:hover {
+    background: rgba(252, 175, 69, 0.1);
+}
+
+.insta a {
+    background: #FCAF45;
+    color: #000000;
+}
+
+.gmail {
+    background: rgba(219, 50, 54, 0.2);
+}
+
+.gmail:hover {
+    background: rgba(219, 50, 54, 0.1);
+}
+
+.gmail a {
+    background: #DB3236;
+}
+
+.discord {
+    background: rgba(114, 137, 218, 0.2);
+}
+
+.discord:hover {
+    background: rgba(114, 137, 218, 0.1);
+}
+
+.discord a {
+    background: #7289DA;
+    color: #000000;
+}
+
+.telegram {
+    background: rgba(0, 136, 204, 0.2);
+}
+
+.telegram:hover {
+    background: rgba(0, 136, 204, 0.1);
+}
+
+.telegram a {
+    background: #0088CC;
+}
+
+.whatsapp {
+    background: rgba(37, 211, 102, 0.2);
+}
+
+.whatsapp:hover {
+    background: rgba(37, 211, 102, 0.1);
+}
+
+.whatsapp a {
+    background: #25D366;
+    color: #000000;
+}
+

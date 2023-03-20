@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <div className='main'>
-        <Sidebar className="side-bar"></Sidebar>
-        <Contact></Contact>
+        <Sidebar />
+        <Contact />
       </div>
     </>
   );
