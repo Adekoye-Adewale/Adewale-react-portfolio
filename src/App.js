@@ -1,5 +1,6 @@
 import './App.css';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 import Sidebar from './components/Sidebar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className='main'>
         <Sidebar />
         <Contact />
+        {/* <Projects /> */}
       </div>
     </>
   );
