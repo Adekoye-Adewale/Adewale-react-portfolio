@@ -13,6 +13,7 @@ import whatsapp from '../assets/whatsapp.svg'
 import blog from '../assets/blog.svg'
 import phone from '../assets/phone.svg'
 import share from '../assets/share.svg'
+import Carousel from './Carousel.tsx'
 
 
 export default function Contact() {
@@ -56,7 +57,7 @@ export default function Contact() {
 
                 <div className='contact-wrapper-line-two'>
                     <div className='showcase'>
-
+                        <Carousel/>
                     </div>
 
                     <div className='contact-showcase-right'>

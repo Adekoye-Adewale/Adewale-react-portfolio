@@ -20,11 +20,11 @@ function App() {
               <Contact />
             </Route>
 
-            <Route exact path='/projects'>
+            <Route path='/projects'>
               <Projects />
             </Route>
 
-            <Route exact path='/experience'>
+            <Route path='/experience'>
               <Experience />
             </Route>
           </Switch>
