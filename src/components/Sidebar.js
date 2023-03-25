@@ -1,6 +1,7 @@
-import React from 'react'
-import './Sidebar.css'
-import logo from '../logo.svg'
+import React from 'react';
+import './Sidebar.css';
+import logo from '../logo.svg';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   return (
@@ -21,15 +22,15 @@ export default function Sidebar() {
             </div>
 
             <div className='btn-wrapper'>
-                <a href='./contact' className='btn'>
+                <Link to="/" className='btn'>
                     Contact
-                </a>
-                <a href='./projects' className='btn'>
+                </Link>
+                <Link to="/projects" className='btn'>
                     Projects
-                </a>
-                <a href='./contact' className='btn'>
+                </Link>
+                <Link to="/experience" className='btn'>
                     Experience
-                </a>
+                </Link>
             </div>
 
             <div className='foot'>

@@ -4,7 +4,11 @@ import ExperienceList from './ExperienceList'
 export default function Experience() {
   return (
     <>
-        <ExperienceList />
+      <div>
+        <div>
+          <ExperienceList />
+        </div>
+      </div>
     </>
   )
 }

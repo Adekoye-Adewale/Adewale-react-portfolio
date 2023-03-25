@@ -1,4 +1,5 @@
 import React from 'react'
+import './ExperienceList.css'
 import CardItem from './CardItem'
 import JS from '../assets/JavaScript.svg'
 import Star from '../assets/Stars Icon.svg'
@@ -37,7 +38,7 @@ const experiencesFile = [
         icon: "",
         url: "#",
         urlname: "Since 2021",
-        image: "",
+        image: "../static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
         imagename: "JavaScript",
     }, {
         title: "React JS",
