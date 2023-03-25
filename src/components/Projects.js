@@ -5,7 +5,7 @@ import './Projects.css';
 export default function Projects() {
   return (
     <>
-        <div>
+        <div className='contents'>
             <div>
                 <ProjectLists />
             </div>

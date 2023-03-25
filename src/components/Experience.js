@@ -4,7 +4,7 @@ import ExperienceList from './ExperienceList'
 export default function Experience() {
   return (
     <>
-      <div>
+      <div className='contents'>
         <div>
           <ExperienceList />
         </div>

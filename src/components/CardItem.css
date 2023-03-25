@@ -2,6 +2,7 @@
     background: #F8F8F8;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    transition: all 300ms ease-in-out 10ms;
 
     max-width: 437px;
     width: 100%;
@@ -41,6 +42,10 @@ img {
     transform: scale(1.1);
 }
 
+.projectitem-wrapper:hover {
+    background-color: #dddddd;
+}
+
 h2 {
     font-weight: 600;
     font-size: 18px;
@@ -49,7 +54,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-p {
+a {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
