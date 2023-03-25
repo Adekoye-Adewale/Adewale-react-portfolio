@@ -1,0 +1,55 @@
+import React from 'react'
+import ProjectItem from './ProjectItem'
+
+const Employees = () => {
+    const data = [
+        {
+            title: "Reset USA",
+            icon: "",
+            url: "https://www.reset-usa.com",
+            image: "",
+        }, {
+            title: "MediatekNg",
+            icon: "",
+            url: "https://www.mediatekng.com/",
+            image: "",
+        }, {
+            title: "Custom QR Code Generator",
+            icon: "",
+            url: "https://custom-qrcode.netlify.app/",
+            image: "",
+        }, {
+            title: "Responsive-MegaMenu",
+            "icon": "",
+            "url": "",
+            "image": "",
+        }, {
+            "title": "AskShola",
+            "icon": "",
+            "url": "https://askshola.com/",
+            "image": "",
+        }, {
+            "title": "ScrapBeta",
+            "icon": "",
+            "url": "https://scrapbeta.com/",
+            "image": "",
+        }, {
+            "title": "FinnGrey",
+            "icon": "",
+            "url": "https://finngreyprojects.com/",
+            "image": "",
+        }, {
+            "title": "Ayoola Photography",
+            "icon": "",
+            "url": "https://ayoolaoluwatosin.com/",
+            "image": "",
+        },
+    ];
+
+export default function ProjectLists() {
+  return (
+    <>
+    <ProjectItem title="myTitle" link="myLink"/>
+    </>
+  )
+}
