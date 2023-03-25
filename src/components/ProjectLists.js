@@ -1,7 +1,8 @@
 import React from 'react'
 import './ProjectLists.css'
-import ProjectItem from './ProjectItem'
+import ProjectItem from './CardItem'
 import ResetUSA from '../assets/ResetUSA.svg'
+import OpenLink from '../assets/Open-Link-Icon.svg';
 
 const projectsFile = [
         {
@@ -69,7 +70,7 @@ export default function ProjectLists() {
         <div className='projects-wrapper'>
             {projectsFile.map((projectFile) => (
                     <ProjectItem 
-                        icon={projectFile.icon}
+                        icon={OpenLink}
                         title={projectFile.title} 
                         link={projectFile.url} 
                         linkName={projectFile.urlname}

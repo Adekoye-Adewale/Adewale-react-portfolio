@@ -26,14 +26,14 @@ export default function Contact() {
                             <img src={twitter} alt='twitter-logo' />
                             <h4>Twitter</h4>
                             <p>@__akanda__</p>
-                            <a href='' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
 
                         <div className='box'>
                             <img src={github} alt='github-logo' />
                             <h4>Github</h4>
                             <p>Adisa Empire</p>
-                            <a href='' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
                     </div>
 
@@ -42,14 +42,14 @@ export default function Contact() {
                             <img src={linkedin} alt='LinkedIn-logo' />
                             <h4>LinkedIn</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
 
                         <div className='box'>
                             <img src={link} alt='Resume-link' />
                             <h4>Resume</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
                     </div>
                 </div>
@@ -65,14 +65,14 @@ export default function Contact() {
                                 <img src={insta} alt='intagram-logo' />
                                 <h4>Instagram</h4>
                                 <p>@__akanda__</p>
-                                <a href='#' target='_blank'>Follow Me</a>
+                                <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                             </div>
 
                             <div className='box gmail'>
                                 <img src={gmail} alt='gmail-logo' />
                                 <h4>Gmail</h4>
                                 <p>Adekoye Adewale</p>
-                                <a href='/' target='_blank'>Follow Me</a>
+                                <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                             </div>
                         </div>
 
@@ -81,14 +81,14 @@ export default function Contact() {
                                 <img src={discord} alt='discord-logo' />
                                 <h4>Discord</h4>
                                 <p>Adisa#3761</p>
-                                <a href='#' target='_blank'>Follow Me</a>
+                                <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                             </div>
 
                             <div className='box telegram'>
                                 <img src={telegram} alt='telegram-logo' />
                                 <h4>Telegram</h4>
                                 <p>@akandaadisa</p>
-                                <a href='/' target='_blank'>Follow Me</a>
+                                <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                             </div>
                         </div>
 
@@ -101,14 +101,14 @@ export default function Contact() {
                             <img src={whatsapp} alt='whatsapp-logo' />
                             <h4>WhatsApp</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='#' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
 
                         <div className='box'>
                             <img src={blog} alt='blog-icon' />
                             <h4>My Blog</h4>
                             <p></p>
-                            <a href='#' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
                     </div>
 
@@ -117,14 +117,14 @@ export default function Contact() {
                             <img src={phone} alt='phone-icon' />
                             <h4>Phone</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='#' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
 
                         <div className='box'>
                             <img src={share} alt='share-icon' />
                             <h4>Share</h4>
                             <p></p>
-                            <a href='#' target='_blank'>Follow Me</a>
+                            <a href='#' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
                     </div>
                 </div>
