@@ -12,32 +12,34 @@ const options: Options = {
     perPage: 2,
     arrows: false,
     pagination: false,
+    rewind: true,
+    gap   : '1rem',
 };
 
 const slides = [
     {
         name: "Mediatek Ng",
         text: "mediatekng.com",
-        icon: "/static/media/github.dfb30978126e916bf849186a778eb9e8.svg",
-        image: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
+        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
     },
     {
         name: "Reset USA",
         text: "reset-usa.com",
-        icon: "star",
-        image: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
+        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
     },
     {
         name: "Custom QR Code Generator",
         text: "custom-qrcode.netlify.app",
-        icon: "star",
-        image: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
+        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
     },
     {
         name: "Ask Shola",
         text: "askshola.com",
-        icon: "",
-        image: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
+        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
     },
 ];
 
@@ -57,11 +59,11 @@ export default function Carousel() {
                                                 <h3>{slide.name}</h3>
                                                 <p>{slide.text}</p>
                                             </div>
-                                            {slide.icon}
+                                            <img src={slide.icon} alt='Open Link' />
                                         </a>
                                     </div>
                                     <div className='carousel-img'>
-                                        {slide.image}
+                                        <img src={slide.image} alt='Open Link' />
                                     </div>
                                 </div>
                             </div>

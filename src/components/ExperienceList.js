@@ -2,54 +2,54 @@ import React from 'react'
 import './ExperienceList.css'
 import CardItem from './CardItem'
 import JS from '../assets/JavaScript.svg'
-import Star from '../assets/Stars Icon.svg'
+// import Star from '../assets/Stars Icon.svg'
 
 const experiencesFile = [
     {
         title: "WordPress",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2019",
         image: "",
         imagename: "WordPress",
     }, {
         title: "Content Writing",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2016",
         image: "",
         imagename: "Content Writing",
     }, {
         title: "Social Media Management",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2016",
         image: "",
         imagename: "Custom QR Code",
     }, {
         title: "SEO and Analytics",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "",
         urlname: "Since 2019",
         image: "",
         imagename: "SEO and Analytics",
     }, {
         title: "JavaScript",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2021",
         image: "../static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
         imagename: "JavaScript",
     }, {
         title: "React JS",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2021",
         image: "",
         imagename: "React JS",
     }, {
         title: "HTML & CSS",
-        icon: "",
+        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2020",
         image: "",
@@ -71,7 +71,7 @@ export default function ExperienceList() {
     <div className='projects-wrapper'>
             {experiencesFile.map((experienceFile) => (
         <CardItem 
-            icon={Star}
+            icon={experienceFile.icon}
             title={experienceFile.title} 
             link={experienceFile.url} 
             linkName={experienceFile.urlname}

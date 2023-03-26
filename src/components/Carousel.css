@@ -8,20 +8,19 @@
     width: auto;
 }
 
-.slide {
+/* .slide {
     padding: 0 0 0 30px;
-}
+} */
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    justify-content: space-around;
     background: #F8F8F8;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 20px 10px;
-    max-width: 350px;
+    padding: 10px 5px;
+    max-width: 250px;
     height: 300px;
 }
 
@@ -43,8 +42,16 @@
     line-height: 18px;
 }
 
+.carousel-text h3, .carousel-text p {
+    margin: 0px;
+}
+
 .carousel-img {
     overflow: hidden;
+}
+
+.carousel-img > img {
+    width: 100%;
 }
 
 /* .material-symbols-outlined {
