@@ -78,9 +78,12 @@
 }
 
 .showcase {
-    width: calc(49% - 10px);
+    display: flex;
+    /* width: calc(49% - 10px); */
+    max-width: 460px;
     height: auto;
-    /* overflow-x: scroll; */
+    padding: 0px 20px;
+    overflow: hidden;
     background: #cacaca;
     mix-blend-mode: normal;
     border: 1px solid rgba(0, 0, 0, 0.2);

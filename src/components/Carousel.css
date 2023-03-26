@@ -1,16 +1,19 @@
 .wrapper {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
     overflow-x: hidden;
+    border-radius: 0px 16px 16px 0px;
+    align-self: center;
 }
 
 .splide {
     width: auto;
 }
 
-/* .slide {
-    padding: 0 0 0 30px;
-} */
+.slide {
+    /* padding: 0 0 0 30px; */
+    min-width: 300px;
+}
 
 .card {
     display: flex;
@@ -19,7 +22,7 @@
     background: #F8F8F8;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 10px 5px;
+    padding: 10px 20px;
     max-width: 250px;
     height: 300px;
 }
@@ -52,6 +55,13 @@
 
 .carousel-img > img {
     width: 100%;
+}
+
+/* custom css for splide css */
+
+.splide__list {
+    max-width: 600px;
+    width: 590px;
 }
 
 /* .material-symbols-outlined {

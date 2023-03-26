@@ -2,7 +2,7 @@ import React from 'react'
 import './ExperienceList.css'
 import CardItem from './CardItem'
 import JS from '../assets/JavaScript.svg'
-// import Star from '../assets/Stars Icon.svg'
+import Star from '../assets/Stars Icon.svg'
 
 const experiencesFile = [
     {
@@ -71,7 +71,7 @@ export default function ExperienceList() {
     <div className='projects-wrapper'>
             {experiencesFile.map((experienceFile) => (
         <CardItem 
-            icon={experienceFile.icon}
+            icon={Star}
             title={experienceFile.title} 
             link={experienceFile.url} 
             linkName={experienceFile.urlname}

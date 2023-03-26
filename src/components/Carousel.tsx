@@ -20,26 +20,26 @@ const slides = [
     {
         name: "Mediatek Ng",
         text: "mediatekng.com",
-        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
-        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
+        icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
+        image: "/static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
     },
     {
         name: "Reset USA",
         text: "reset-usa.com",
-        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
-        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
+        icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
+        image: "/static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
     },
     {
         name: "Custom QR Code Generator",
         text: "custom-qrcode.netlify.app",
-        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
-        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
+        icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
+        image: "/static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
     },
     {
         name: "Ask Shola",
         text: "askshola.com",
-        icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
-        image: "https://responsive-nav-with-megamenu.netlify.app/images/MediatekNg.svg",
+        icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
+        image: "/static/media/JavaScript.3bb36fd89f0277e27fd5fa1e744820c7.svg",
     },
 ];
 
