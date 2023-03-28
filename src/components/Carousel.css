@@ -2,8 +2,9 @@
     /* margin-top: 30px;
     margin-bottom: 30px; */
     overflow-x: hidden;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 20px;
     align-self: center;
+    width: 100%;
 }
 
 .splide {
@@ -60,9 +61,22 @@
 /* custom css for splide css */
 
 .splide__list {
-    max-width: 600px;
-    width: 590px;
+    max-width: 950px;
+    width: 900px;
 }
+
+.is-active {
+    z-index: 2;
+}
+
+.is-next {
+    z-index: 1;
+}
+
+/* .splide__progress__bar {
+    height: 3px;
+    background: #ccc;
+  } */
 
 /* .material-symbols-outlined {
     font-size: 40px;

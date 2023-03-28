@@ -2,8 +2,8 @@
     /* padding: 5% 1%; */
     display: flex;
     flex-wrap: wrap;
-    gap: 35px;
-    flex: 0 1 437px;
+    gap: 20px;
     justify-content: center;
     align-content: space-between;
 }
+

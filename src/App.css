@@ -4,18 +4,19 @@
 }
 
 .contents {
-  width: 70vw;
+  max-width: calc(70vw - 5%);
   /* background-color: #777777; */
   padding: 3% 5%;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 767px) {
   .main {
-      display: block;
+    display: block;
   }
 
   .contents {
-    max-width: 100vh;
+    max-width: 100vw;
     width: auto;
   }
 }
