@@ -43,6 +43,7 @@ const slides = [
         text: "askshola.com",
         icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
         image: "https://adewaleimg.netlify.app/img-assests/ASK%20SHOLA.webp",
+        url: "#"
     },
 ];
 
@@ -60,7 +61,7 @@ export default function Carousel() {
                             <div className='slide'>
                                 <div className='card'>
                                     <div className='carousel-text'>
-                                        <a href='#'>
+                                        <a href={slide.url}>
                                             <div>
                                                 <h3>{slide.name}</h3>
                                                 <p>{slide.text}</p>
