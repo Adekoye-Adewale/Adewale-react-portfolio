@@ -25,25 +25,28 @@ const slides = [
         text: "mediatekng.com",
         icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
         image: "https://adewaleimg.netlify.app/img-assests/MediatekNg.webp",
+        url: "https://www.mediatekng.com/"
     },
     {
         name: "Reset USA",
         text: "reset-usa.com",
         icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
         image: "https://adewaleimg.netlify.app/img-assests/Reset-USA%20Mockup.webp",
+        url: "https://www.reset-usa.com/"
     },
     {
         name: "Custom QR Code Generator",
         text: "custom-qrcode.netlify.app",
         icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
         image: "https://adewaleimg.netlify.app/img-assests/Custom-QR-CODE.webp",
+        url: "https://custom-qrcode.netlify.app/"
     },
     {
         name: "Ask Shola",
         text: "askshola.com",
         icon: "/static/media/Stars%20Icon.233149f8ef135a0d51813dfdf11778a0.svg",
         image: "https://adewaleimg.netlify.app/img-assests/ASK%20SHOLA.webp",
-        url: "#"
+        url: "https://askshola.com/"
     },
 ];
 

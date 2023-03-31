@@ -44,22 +44,36 @@ const projectsFile = [
             icon: "",
             url: "https://scrapbeta.com/",
             urlname: "scrapbeta.com",
-            image: "https://adewaleimg.netlify.app/img-assests/ASK%20SHOLA.webp",
+            image: "https://adewaleimg.netlify.app/img-assests/ScrapBeta.webp",
             imagename: "Scrapbeta",
         }, {
             title: "FinnGrey",
             icon: "",
             url: "https://finngreyprojects.com/",
             urlname: "finngreyprojects.com",
-            image: "https://adewaleimg.netlify.app/img-assests/ASK%20SHOLA.webp",
+            image: "https://adewaleimg.netlify.app/img-assests/FinnGrey.webp",
             imagename: "Finngreyprojects",
+        }, {
+            title: "Super User Group",
+            icon: "",
+            url: "https://www.superusergroup.com/",
+            urlname: "superusergroup.com",
+            image: "https://adewaleimg.netlify.app/img-assests/Super%20User%20Group.webp",
+            imagename: "superusergroup",
         }, {
             title: "Ayoola Photography",
             icon: "",
             url: "https://ayoolaoluwatosin.com/",
             urlname: "ayoolaoluwatosin.com",
-            image: "https://adewaleimg.netlify.app/img-assests/ASK%20SHOLA.webp",
+            image: "https://adewaleimg.netlify.app/img-assests/AyoOla.webp",
             imagename: "Ayoolaoluwatosin",
+        }, {
+            title: "Scribe Workforce Management",
+            icon: "",
+            url: "https://www.scribewmgt.com",
+            urlname: "scribewmgt.com",
+            image: "https://adewaleimg.netlify.app/img-assests/Scribe%20Workforce%20Management.webp",
+            imagename: "Scribe Workforce Management",
         }
     ];
 

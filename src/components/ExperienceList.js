@@ -10,28 +10,35 @@ const experiencesFile = [
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2019",
-        image: "",
+        image: "https://adewaleimg.netlify.app/img-assests/WordPress.webp",
         imagename: "WordPress",
     }, {
         title: "Content Writing",
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2016",
-        image: "",
+        image: "https://adewaleimg.netlify.app/img-assests/Content%20Writing.webp",
         imagename: "Content Writing",
     }, {
         title: "Social Media Management",
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2016",
-        image: "",
-        imagename: "Custom QR Code",
+        image: "https://adewaleimg.netlify.app/img-assests/SMM.webp",
+        imagename: "Social Media Management",
+    }, {
+        title: "Graphics Designing",
+        icon: "",
+        url: "#",
+        urlname: "Since 2017",
+        image: "https://adewaleimg.netlify.app/img-assests/Graphics%20Designing.webp",
+        imagename: "Graphics Designing",
     }, {
         title: "SEO and Analytics",
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "",
         urlname: "Since 2019",
-        image: "",
+        image: "https://adewaleimg.netlify.app/img-assests/SEO.webp",
         imagename: "SEO and Analytics",
     }, {
         title: "JavaScript",
@@ -45,22 +52,15 @@ const experiencesFile = [
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2021",
-        image: "",
+        image: "https://adewaleimg.netlify.app/img-assests/React%20JS.webp",
         imagename: "React JS",
     }, {
         title: "HTML & CSS",
         icon: "https://responsive-nav-with-megamenu.netlify.app/images/Stars%20Icon.svg",
         url: "#",
         urlname: "Since 2020",
-        image: "",
+        image: "https://adewaleimg.netlify.app/img-assests/HTML%20and%20CSS.webp",
         imagename: "HTML & CSS",
-    }, {
-        title: "Graphics Designing",
-        icon: "",
-        url: "#",
-        urlname: "Since 2017",
-        image: "",
-        imagename: "Graphics Designing",
     }
 ];
 
@@ -75,7 +75,7 @@ export default function ExperienceList() {
             title={experienceFile.title} 
             link={experienceFile.url} 
             linkName={experienceFile.urlname}
-            image={JS}
+            image={experienceFile.image}
             imageName={experienceFile.imagename}/>
             )
             )}
