@@ -18,5 +18,7 @@
   .contents {
     max-width: 100vw;
     width: auto;
+    padding: 10% 3%;
+    padding-bottom: 80px;
   }
 }

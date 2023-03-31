@@ -7,17 +7,20 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useLocation,
 } from "react-router-dom";
 import Menu from './components/Menu';
 
-function App() {
+function Root() {
+  const location = useLocation();
+
   return (
     <>
       <Router>
         <div className='main'>
           <Sidebar />
           <Menu />
-          <Switch>
+          <Switch location={location}>
             <Route exact path='/contact'>
               <Contact />
             </Route>
@@ -33,8 +36,8 @@ function App() {
         </div>
       </Router>
     </>
-    
   );
 }
 
-export default App;
+export default Root;
+
