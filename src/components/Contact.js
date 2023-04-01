@@ -50,7 +50,7 @@ export default function Contact() {
                             <img src={link} alt='Resume-link' />
                             <h4>Resume</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='#' target='_blank' rel="noreferrer">Download</a>
+                            <a href='https://adekoyeadewale.com/' target='_blank' rel="noreferrer">Download</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                             <img src={blog} alt='blog-icon' />
                             <h4>My Blog</h4>
                             <p></p>
-                            <a href='#' target='_blank' rel="noreferrer">Read My Blogs</a>
+                            <a href='https://adekoyeadewale.com/' target='_blank' rel="noreferrer">Read My Blogs</a>
                         </div>
                     </div>
 
@@ -125,7 +125,7 @@ export default function Contact() {
                             <img src={share} alt='share-icon' />
                             <h4>Share</h4>
                             <p></p>
-                            <a href='#' target='_blank' rel="noreferrer">Share To</a>
+                            <a href='https://adekoyeadewale.com/' target='_blank' rel="noreferrer">Share To</a>
                         </div>
                     </div>
                 </div>

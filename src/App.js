@@ -4,8 +4,8 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Sidebar from './components/Sidebar';
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter,
+  Routes,
   Route,
 } from "react-router-dom";
 import Menu from './components/Menu';
@@ -13,12 +13,17 @@ import Menu from './components/Menu';
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <div className='main'>
           <Sidebar />
           <Menu />
-          <Switch>
-            <Route exact path='/contact'>
+          <Routes>
+
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />    
+
+            {/* <Route exact path='/contact'>
               <Contact />
             </Route>
 
@@ -28,10 +33,10 @@ function App() {
 
             <Route path='/experience'>
               <Experience />
-            </Route>
-          </Switch>
+            </Route> */}
+          </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
     </>
     
   );

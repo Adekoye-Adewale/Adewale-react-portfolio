@@ -1,7 +1,6 @@
 import React from 'react'
 import './ExperienceList.css'
 import CardItem from './CardItem'
-import JS from '../assets/JavaScript.svg'
 import Star from '../assets/Stars Icon.svg'
 
 const experiencesFile = [

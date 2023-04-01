@@ -26,11 +26,11 @@
 }
 
 .project-img {
-    /* flex-basis: 219px;
-    height: 143px; */
+    /* flex-basis: 219px; */
+    /* height: 100%; */
     align-self: center;
     overflow: hidden;
-    filter: drop-shadow(0px 0px 10px #00000033);
+    /* filter: drop-shadow(0px 0px 10px #00000033); */
     /* border: solid 1px red; */
     border-radius: 16px;
     transition: all 0.5s ease-in-out 10ms;
@@ -38,6 +38,7 @@
 
 .p-img {
     width: -webkit-fill-available;
+    margin-bottom: -5px;
 }
 
 img {
