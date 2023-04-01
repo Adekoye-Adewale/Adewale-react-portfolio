@@ -45,7 +45,8 @@ export default function Sidebar() {
                         </h3>
                         <p>I am open to projects/collaboration opportunities</p>
                     </div>
-
+                    
+                    {isMenuVisible ? (
                     <div className='btn-wrapper'>
                         <Link to="/contact" className='btn' onClick={handleMenuClick}>
                             Contact
@@ -57,6 +58,19 @@ export default function Sidebar() {
                             Experience
                         </Link>
                     </div>
+                    ) : (
+                        <div className='btn-wrapper'>
+                            <Link to="/contact" className='btn' onClick={handleMenuClick}>
+                                Contact
+                            </Link>
+                            <Link to="/projects" className='btn' onClick={handleMenuClick}>
+                                Projects
+                            </Link>
+                            <Link to="/experience" className='btn' onClick={handleMenuClick}>
+                                Experience
+                            </Link>
+                        </div>
+                        )}
 
                     <div className='foot'>
                         <a href='mailto:adekoyeadewale@gmail.com'>
