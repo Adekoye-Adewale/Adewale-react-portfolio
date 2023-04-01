@@ -31,7 +31,7 @@ export default function Sidebar() {
         return (
             <>
                 <div className='side-bar'>
-                    <img src='https://adewaleimg.netlify.app/logo.svg' 
+                    <img src='https://adewaleimg.netlify.app/logo.png' 
                         alt='Adekoye-Adewale' 
                         width='248px' 
                         height='248px'/>
