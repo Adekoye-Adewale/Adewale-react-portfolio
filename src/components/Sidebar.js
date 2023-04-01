@@ -32,9 +32,9 @@ export default function Sidebar() {
         return (
             <>
                 <div className='side-bar'>
-                    <img src={logo} alt='Adekoye-Adewale' />
+                    <img src={logo} alt='Adekoye-Adewale' width='248px' height='248px'/>
                     <h1>Adekoye Adewale</h1>
-                    <h3>Developer | Creator | Strategist | Designer</h3>
+                    <h2>Developer | Creator | Strategist | Designer</h2>
                     <p>Self-taught Web Developer, Based in Lagos, Nigeria</p>
                     
                     <div className='space'>
