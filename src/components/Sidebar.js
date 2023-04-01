@@ -50,6 +50,9 @@ export default function Sidebar() {
                     
                     {isMenuVisible ? (
                     <div className='btn-wrapper'>
+                        <Link to="/" className='btn' onClick={handleMenuClick}>
+                            About
+                        </Link>
                         <Link to="/contact" className='btn' onClick={handleMenuClick}>
                             Contact
                         </Link>
@@ -62,6 +65,9 @@ export default function Sidebar() {
                     </div>
                     ) : (
                         <div className='btn-wrapper'>
+                            <Link to="/" className='btn' onClick={handleMenuClick}>
+                                About
+                            </Link>
                             <Link to="/contact" className='btn' onClick={handleMenuClick}>
                                 Contact
                             </Link>

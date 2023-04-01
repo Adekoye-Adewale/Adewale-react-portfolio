@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Menu from './components/Menu';
+import About from './components/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Menu />
           <Routes>
 
+            <Route path="/" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />    
