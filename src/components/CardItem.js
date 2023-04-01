@@ -9,7 +9,7 @@ export default function CardItem(props) {
             <div className='project-details'>
                 <img src={props.icon} alt='Open Link' />
                 <h2>{props.title}</h2>
-                <a href={props.link} target='_blank' rel="noreferrer">{props.linkName}</a>
+                <p>{props.linkName}</p>
             </div>
             <div className='project-img'>
                 <img src={props.image} alt={props.imageName} className='p-img' />

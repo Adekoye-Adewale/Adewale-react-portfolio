@@ -68,8 +68,9 @@ export default function ExperienceList() {
   return (
 
     <div className='projects-wrapper'>
-            {experiencesFile.map((experienceFile) => (
+            {experiencesFile.map((experienceFile, index) => (
         <CardItem 
+            key={index}
             icon={Star}
             title={experienceFile.title} 
             link={experienceFile.url} 

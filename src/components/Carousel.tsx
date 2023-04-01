@@ -59,8 +59,8 @@ export default function Carousel() {
                         aria-labelledby="autoplay-example-heading"
                         hasTrack={ false }>
                             <SplideTrack>
-                    {slides.map((slide) => (
-                        <SplideSlide>
+                    {slides.map((slide, index) => (
+                        <SplideSlide key={index}>
                             <div className='slide'>
                                 <div className='card'>
                                     <div className='carousel-text'>

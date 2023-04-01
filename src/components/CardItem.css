@@ -61,7 +61,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-a {
+a, p {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;

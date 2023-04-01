@@ -81,8 +81,9 @@ export default function ProjectLists() {
   return (
     <>
         <div className='projects-wrapper'>
-            {projectsFile.map((projectFile) => (
+            {projectsFile.map((projectFile, index) => (
                     <ProjectItem 
+                        key={index}
                         icon={OpenLink}
                         title={projectFile.title} 
                         link={projectFile.url} 
