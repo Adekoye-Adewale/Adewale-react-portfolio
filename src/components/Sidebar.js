@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import './Sidebar.css';
-import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
@@ -24,7 +23,7 @@ export default function Sidebar() {
         const handleMenuClick = () => {
             setIsMenuVisible(true);
             if (window.innerWidth < 767) {
-              window.scrollTo({ top: 500, behavior: 'smooth' });
+              window.scrollTo({ top: 600, behavior: 'smooth' });
             }
         };
           
@@ -32,7 +31,10 @@ export default function Sidebar() {
         return (
             <>
                 <div className='side-bar'>
-                    <img src={logo} alt='Adekoye-Adewale' width='248px' height='248px'/>
+                    <img src='https://adekoyeadewale.com/static/media/logo.fb090c38a98df8fe4eb1dd17d1d5a79c.svg' 
+                        alt='Adekoye-Adewale' 
+                        width='248px' 
+                        height='248px'/>
                     <h1>Adekoye Adewale</h1>
                     <h2>Developer | Creator | Strategist | Designer</h2>
                     <p>Self-taught Web Developer, Based in Lagos, Nigeria</p>
