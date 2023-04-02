@@ -20,10 +20,10 @@ function App() {
           <Menu />
           <Routes>
 
-            <Route path="/" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />    
+            <Route exact path="/" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/experience" element={<Experience />} />    
 
             {/* <Route exact path='/contact'>
               <Contact />
