@@ -91,10 +91,15 @@
     flex-basis: calc(50% - 40px);
     max-width: calc(50% - 40px);
     overflow: hidden;
-    background: #cacaca;
+    background: rgba(86, 134, 225, 0.1);
     mix-blend-mode: normal;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    transition: all 800ms ease-in 10ms;
+}
+
+.showcase:hover {
+    background-color: #ffffff;
 }
 
 .showcase, .contact-showcase-right {
