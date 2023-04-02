@@ -1,5 +1,6 @@
 .side-bar {
     position: sticky;
+    position: -webkit-sticky;
     top: 0px;
     left: 0px;
     max-width: 30vw;
