@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Sidebar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Sidebar() {
 
@@ -50,33 +50,55 @@ export default function Sidebar() {
                     
                     {isMenuVisible ? (
                     <div className='btn-wrapper'>
-                        <Link to="/" className='btn' onClick={handleMenuClick}>
-                            About
-                        </Link>
-                        <Link to="/contact" className='btn' onClick={handleMenuClick}>
-                            Contact
-                        </Link>
-                        <Link to="/projects" className='btn' onClick={handleMenuClick}>
-                            Projects
-                        </Link>
-                        <Link to="/experience" className='btn' onClick={handleMenuClick}>
-                            Experience
-                        </Link>
+                        <NavLink to="/" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
+                                About
+                            </NavLink>
+                            
+                            <NavLink to="/contact" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
+                                Contact
+                            </NavLink>
+
+                            <NavLink to="/projects" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
+                                Projects
+                            </NavLink>
+
+                            <NavLink to="/experience" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
+                                Experience
+                            </NavLink>
                     </div>
                     ) : (
                         <div className='btn-wrapper'>
-                            <Link to="/" className='btn' onClick={handleMenuClick}>
+                            <NavLink to="/" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
                                 About
-                            </Link>
-                            <Link to="/contact" className='btn' onClick={handleMenuClick}>
+                            </NavLink>
+                            
+                            <NavLink to="/contact" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
                                 Contact
-                            </Link>
-                            <Link to="/projects" className='btn' onClick={handleMenuClick}>
+                            </NavLink>
+
+                            <NavLink to="/projects" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
                                 Projects
-                            </Link>
-                            <Link to="/experience" className='btn' onClick={handleMenuClick}>
+                            </NavLink>
+
+                            <NavLink to="/experience" className={({ isActive, isPending }) =>
+                                    isPending ? "btn" : isActive ? "active-btn" : ""
+                                } onClick={handleMenuClick}>
                                 Experience
-                            </Link>
+                            </NavLink>
                         </div>
                         )}
 

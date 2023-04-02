@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Menu.css'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { RiUserLine, RiBriefcaseLine, RiChat3Line, RiFolderLine } from 'react-icons/ri';
 
 const menuItems = [
@@ -37,12 +37,12 @@ const MobileMenu = () => {
       {isMenuVisible && (
         <nav className='mobile-menu'>
           {menuItems.map((item) => (
-            <Link to={item.path} key={item.name} onClick={handleMenuClick}>
+            <NavLink to={item.path} key={item.name} onClick={handleMenuClick}>
               <div className="menu-item">
                 {item.icon}
                 <span className="menu-item-name">{item.name}</span>
               </div>
-            </Link>
+            </NavLink>
           ))}
         </nav>
       )}

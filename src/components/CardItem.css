@@ -31,7 +31,8 @@
     align-self: center;
     overflow: hidden;
     /* filter: drop-shadow(0px 0px 10px #00000033); */
-    /* border: solid 1px red; */
+    /* border: solid 1px #09162e1e; */
+    box-shadow: 0px 0px 2px #111111;
     border-radius: 16px;
     transition: all 0.5s ease-in-out 10ms;
 }
@@ -50,7 +51,7 @@ img {
 }
 
 .projectitem-wrapper:hover {
-    background-color: #dddddd;
+    background-color: rgba(86, 134, 225, 0.1);
 }
 
 h2 {

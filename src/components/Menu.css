@@ -6,11 +6,13 @@
     height: 80px;
     margin: 0px auto;
     width: 90%;
-    background-color: white;
+    background-color: rgba(86, 134, 225, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 99px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
-    transition: bottom 0.3s ease-in-out;
+    box-shadow: 0 0px 1px #111111;
+    transition: all 400ms ease-in-out 10ms;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,6 +25,7 @@
 
 .mobile-menu  a {
     flex-basis: 80px;
+    transition: all 400ms ease-in-out 10ms;
 }
 
 .menu-item {
@@ -30,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    transition: all 400ms ease-in-out 10ms;
 }
 
 .menu-item-name {
@@ -45,13 +49,22 @@
     display: block;
 }
 
-.mobile-menu a:active .menu-item-name {
+.mobile-menu > a.active .menu-item-name {
     display: block;
+}
+
+a.active {
+    border: solid 1px #000000;
+    padding: 10px 3px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    transform: translate(0px, -10px);
 }
 
 svg {
     width: 24px;
     height: 24px;
+    transition: all 400ms ease-in-out 10ms;
 }
 
 

@@ -5,7 +5,7 @@
     max-width: 30vw;
     min-width: 30vw;
     height: 100vh;
-    background-color: #dddddd;
+    background-color: rgba(86, 134, 225, 0.1);
     padding: 3%;
     overflow: hidden;
     text-align: center;
@@ -37,7 +37,7 @@ a {
     text-decoration: none;
 }
 
-.btn {
+.btn, .btn-wrapper > a {
     font-size: 0.8em;
     border: solid 1px #000000;
     border-radius: 100px;
@@ -45,13 +45,13 @@ a {
     transition: all 300ms ease-in-out 10ms;
 }
 
-.btn:hover {
+.btn-wrapper > a:hover {
     background-color: #0A66C2;
     color: #ffffff;
     border-color: #0A66C2;
 }
 
-.btn:active, Link:active {
+.active-btn {
     background-color: #09162e;
     color: #ffffff;
     border-color: #09162e;

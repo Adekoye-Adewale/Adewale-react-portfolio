@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import './Contact.css'
 import '../App.css'
 import twitter from '../assets/twitter.svg'
@@ -16,7 +17,12 @@ import share from '../assets/share.svg'
 import Carousel from './Carousel.tsx'
 
 
+
 export default function Contact() {
+    useEffect(() => {
+        document.title = 'Contact Adewale';
+      }, []);
+      
   return (
     <>
         <div className='contents' >    

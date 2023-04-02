@@ -1,6 +1,8 @@
 import React from 'react'
+import { useEffect } from 'react';
 import AboutComponent from './AboutComponent';
 import './About.css'
+
 
 const abouttext = [
     {
@@ -21,6 +23,11 @@ const abouttext = [
 ];
 
 export default function About() {
+    
+    useEffect(() => {
+        document.title = 'About Adewale';
+      }, []);
+          
   return (
     <>
         <div className='contents about'>
