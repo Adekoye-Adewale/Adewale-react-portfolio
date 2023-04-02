@@ -6,10 +6,14 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'build')));
 
 // Always serve the index.html file for any request
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, './public/index.html'), function(err) {
+      if (err) {
+        res.status(500).send(err)
+      }
+    })
+  })
+  
 // Start the server
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
