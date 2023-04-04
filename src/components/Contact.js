@@ -40,7 +40,7 @@ export default function Contact() {
                             <img src={github} alt='github-logo' />
                             <h4>Github</h4>
                             <p>Adisa Empire</p>
-                            <a href='https://github.com/AdisaEmpire' target='_blank' rel="noreferrer">Follow Me</a>
+                            <a href='https://github.com/Adekoye-Adewale' target='_blank' rel="noreferrer">Follow Me</a>
                         </div>
                     </div>
 
