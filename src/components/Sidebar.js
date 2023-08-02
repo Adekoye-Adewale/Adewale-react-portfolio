@@ -37,7 +37,7 @@ export default function Sidebar() {
                         height='248px'/>
                     <h1>Adekoye Adewale</h1>
                     <h2>Developer | Creator | Strategist | Designer</h2>
-                    <p>Self-taught Web Developer, Based in Lagos, Nigeria</p>
+                    <p>Self-taught Frontend Web Developer</p>
                     
                     <div className='space'>
                         <h3>
