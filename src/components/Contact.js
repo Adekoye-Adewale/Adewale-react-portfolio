@@ -56,7 +56,7 @@ export default function Contact() {
                             <img src={link} alt='Resume-link' />
                             <h4>Resume</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='https://adekoyeadewale.com/' target='_blank' rel="noreferrer">Download</a>
+                            <a href='https://adekoyeadewale.com/#' target='_blank' rel="noreferrer">Download</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                                 <img src={telegram} alt='telegram-logo' />
                                 <h4>Telegram</h4>
                                 <p>@akandaadisa</p>
-                                <a href='https://t.me/akandaadisa' target='_blank' rel="noreferrer">Chat Me</a>
+                                <a href='https://t.me/adisaempire' target='_blank' rel="noreferrer">Chat Me</a>
                             </div>
                         </div>
 
@@ -108,14 +108,14 @@ export default function Contact() {
                             <img src={whatsapp} alt='whatsapp-logo' />
                             <h4>WhatsApp</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='https://api.whatsapp.com/send/?phone=2347045043007&text=From%20Adekoye%20website&type=phone_number' target='_blank' rel="noreferrer">Chat Me</a>
+                            <a href='https://api.whatsapp.com/send/?phone=2348067355472&text=From%20Adekoye%20website&type=phone_number' target='_blank' rel="noreferrer">Chat Me</a>
                         </div>
 
                         <div className='box'>
                             <img src={blog} alt='blog-icon' />
                             <h4>My Blog</h4>
                             <p></p>
-                            <a href='https://adekoyeadewale.com/' target='_blank' rel="noreferrer">Read My Blogs</a>
+                            <a href='https://adekoyeadewale.com/#' target='_blank' rel="noreferrer">Read My Blogs</a>
                         </div>
                     </div>
 
@@ -124,7 +124,7 @@ export default function Contact() {
                             <img src={phone} alt='phone-icon' />
                             <h4>Phone</h4>
                             <p>Adekoye Adewale</p>
-                            <a href='tel:2347045043007' target='_blank' rel="noreferrer">Call Me</a>
+                            <a href='tel:2348067355472' target='_blank' rel="noreferrer">Call Me</a>
                         </div>
 
                         <div className='box'>
