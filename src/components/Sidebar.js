@@ -109,7 +109,7 @@ export default function Sidebar() {
                         {/* <a href='tel:2347045043007'>
                             +234 704 504 3007
                         </a><br/> */}
-                        <a href='tel:8067355472'>
+                        <a href='tel:2348067355472'>
                             +234 806 735 5472
                         </a>
                     </div>
