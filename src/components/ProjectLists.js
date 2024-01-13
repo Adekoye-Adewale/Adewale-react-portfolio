@@ -74,6 +74,13 @@ const projectsFile = [
             urlname: "scribewmgt.com",
             image: "https://adewaleimg.netlify.app/img-assests/Scribe%20Workforce%20Management.webp",
             imagename: "Scribe Workforce Management",
+        }, {
+            title: "POF LUXURY",
+            icon: "",
+            url: "https://www.pofluxury.com",
+            urlname: "pofluxury.com",
+            image: "https://adewaleimg.netlify.app/img-assests/Scribe%20Workforce%20Management.webp",
+            imagename: "Posfik Brand",
         }
     ];
 
