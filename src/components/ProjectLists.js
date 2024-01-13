@@ -81,6 +81,13 @@ const projectsFile = [
             urlname: "pofluxury.com",
             image: "https://adewaleimg.netlify.app/img-assests/Scribe%20Workforce%20Management.webp",
             imagename: "Posfik Brand",
+        }, {
+            title: "Back To School",
+            icon: "",
+            url: "https://backtoschoolngo.com/",
+            urlname: "backtoschoolngo.com",
+            image: "https://adewaleimg.netlify.app/img-assests/Scribe%20Workforce%20Management.webp",
+            imagename: "BackToSchool NGO",
         }
     ];
 
