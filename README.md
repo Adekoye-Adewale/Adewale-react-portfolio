@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Adekoye Adewale Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit [Adekoye Adewale Website](https://adekoyeadewale.com)
 
 ## Available Scripts
 
